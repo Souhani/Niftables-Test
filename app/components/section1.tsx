@@ -14,7 +14,7 @@ const Section1: FC = () => {
                 </video>
            </div>
                 <div className="mb-20">
-                    <h1 className={styles.title}> The world's first platform for Tokenizing AI blockchain projects</h1>
+                    <h1 className={styles.title}> The world&apos;s first platform for Tokenizing AI blockchain projects</h1>
                     <div className="w-full 800px:w-max">
                         <div className="h-[1px] bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF]"></div>
                         <div className={styles.comment}>
