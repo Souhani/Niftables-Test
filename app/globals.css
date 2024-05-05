@@ -2,28 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+ font-family: "MonumentExtended-Regular";
+ src: url("./assets/fonts/MonumentExtended-Regular.woff2") format("woff2");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("./assets/fonts/Satoshi-Bold.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("./assets/fonts/Satoshi-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("./assets/fonts/Satoshi-Regular.woff2") format("woff2");
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #3D8BFF, #AB23FF);
+  background-clip: text;
+  color: transparent;
+}
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  background: black;
 }
 
 @layer utilities {
@@ -31,3 +39,68 @@ body {
     text-wrap: balance;
   }
 }
+
+.hexagon_1 {
+  width: 68px;
+  height: 76px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  
+}
+
+.hexagon_2 {
+  width: 56px;
+  height: 62px;
+  background-color: #2b2e34; 
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 65px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #AB23FF; 
+  border-radius: 1px;
+
+}
+
+
+@keyframes fadeInBlue {
+  from {
+      background-color: transparent;
+  }
+  to {
+      background-color: #3D8BFF;
+  }
+}
+
+@keyframes revealText {
+  from {
+    border-top-color: transparent; /* Start with a transparent border */
+  }
+  to {
+    border-top-color: black; /* Transition to black color for the border */
+  }
+}
+
+
+.transition-max-height {
+  transition: max-height 1s ease, opacity 1s ease;
+}
+
+
+
+
+
+
+
