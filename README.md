@@ -10,8 +10,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Getting Started
 
-1. in your terminal: git clone [https://github.com/your-username/your-nextjs-app.git
-](https://github.com/Souhani/Niftables-Test.git)
+1. in your terminal: git clone [https://github.com/Souhani/Niftables-Test.git](https://github.com/Souhani/Niftables-Test.git)
 2.  cd Niftables-Test
 
 3.  npm install **or** yarn install
