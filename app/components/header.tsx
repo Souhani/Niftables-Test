@@ -81,9 +81,7 @@ const Header = () => {
           id="screen"
         >
           <div
-            className={`fixed z-[9999] bg-black h-screen w-[65%] right-[-70%] top-0 transform ${
-              openSidebar ? "translate-x-[-100%]" : "translate-x-[0%]"
-            } transition-transform duration-[0.5s] grid content-between`}
+            className={`fixed z-[9999] bg-black h-screen w-[65%] right-0 top-0 grid content-between`}
           >
             <nav className="flex gap-10 items-center p-10">
               <ul className="grid  w-full">
