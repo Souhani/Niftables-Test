@@ -50,7 +50,7 @@ const Section2: FC = () => {
             className="z-[-999]  w-full h-full object-cover"
           >
             <source
-              src="https://res.cloudinary.com/dqxkzecxp/video/upload/v1714840477/nft-video_1_ccptoo.mp4"
+              src="https://res.cloudinary.com/dqxkzecxp/video/upload/v1715029369/vd3_tbbhep.mp4"
               type="video/mp4"
             />
           </video>

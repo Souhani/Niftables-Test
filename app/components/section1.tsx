@@ -10,7 +10,7 @@ const Section1: FC = () => {
                 <div className="h-screen z-[-99] absolute top-0 left-0 w-full object-cover mix-blend-overlay bg-gradient-to-t from-[#000000] from-0% via-[#3d8bff] via-47% to-[#ab23ff] to-99% ">
                 </div>
                 <video autoPlay muted className="h-screen z-[-999] absolute top-0 left-0 w-full object-cover">
-                    <source src="https://res.cloudinary.com/dqxkzecxp/video/upload/v1714647295/main-background-video_1_b4oooj.mp4" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dqxkzecxp/video/upload/v1715029147/vd1_qew47j.mp4" type="video/mp4" />
                 </video>
            </div>
                 <div className="mb-20">
