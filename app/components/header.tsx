@@ -46,7 +46,7 @@ const Header = () => {
   return (
     <header className="w-full flex justify-center z-[9999] absolute top-[30px]">
       <div className="w-[95%] flex justify-between items-center">
-        <h1 className="z-[999999]">
+        <h1 className="">
           <Image src={Logo} alt="CREON" width={140} />
         </h1>
         <div className="1000px:hidden flex cursor-pointer text-white w-min">
@@ -75,13 +75,13 @@ const Header = () => {
           <div
           className={`${
             openSidebar &&
-            "fixed z-[999] bg-[#0000009f] h-screen w-full right-0 top-0"
+            "fixed z-[99] bg-[#0000009f] h-screen w-full right-0 top-0"
           }`}
           onClick={handleCloseSidebar}
           id="screen"
         >
           <div
-            className={`fixed z-[9999] bg-black h-screen w-[65%] right-0 top-0 grid content-between`}
+            className={`fixed z-[999] bg-black h-screen w-[70%] right-0 top-0 grid content-between`}
           >
             <nav className="flex gap-10 items-center p-10">
               <ul className="grid  w-full">
