@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { styles } from "../styles";
-import image2 from "../assets/images/image2.png"
+import image2 from "../assets/images/image2.jpg"
 import Image from "next/image";
 import NewSection from "../utils/newSection";
 

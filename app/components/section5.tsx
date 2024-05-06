@@ -1,9 +1,9 @@
 import { FC } from "react";
 import NewSection from "../utils/newSection";
 import Card, { CardProps } from "../widgets/card";
-import image9 from "../assets/images/image9.png";
-import image10 from "../assets/images/image10.png";
-import image11 from "../assets/images/image11.png";
+import image9 from "../assets/images/image9.jpg";
+import image10 from "../assets/images/image10.jpg";
+import image11 from "../assets/images/image11.jpg";
 
 const Section5:FC = () => {
   const cardInfo:CardProps[] = [

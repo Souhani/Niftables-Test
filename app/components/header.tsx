@@ -47,7 +47,9 @@ const Header = () => {
     <header className="w-full flex justify-center z-[9999] absolute top-[30px]">
       <div className="w-[95%] flex justify-between items-center">
         <h1 className="">
+          <Link href="#">
           <Image src={Logo} alt="CREON" width={140} />
+         </Link>
         </h1>
         <div className="1000px:hidden flex cursor-pointer text-white w-min">
                             <IoMenu 

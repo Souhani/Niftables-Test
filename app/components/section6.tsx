@@ -1,9 +1,9 @@
 import { FC } from "react";
 import NewSection from "../utils/newSection";
 import Slideshow, { SlideshowProps } from "../widgets/slideshow";
-import image12 from "../assets/images/image12.png";
-import image13 from "../assets/images/image13.png";
-import image14 from "../assets/images/image14.png";
+import image12 from "../assets/images/image12.jpg";
+import image13 from "../assets/images/image13.jpg";
+import image14 from "../assets/images/image14.jpg";
 import BottomBackground from "./bottomBackground";
 
 const Section6:FC = () => {
