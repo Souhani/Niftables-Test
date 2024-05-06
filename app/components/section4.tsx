@@ -38,7 +38,7 @@ const Section4:FC = () => {
     return (
         <NewSection>
                 <div className="grid 1000px:grid-cols-3 gap-10 justify-items-center">
-                  <div className="content-center 1000px:col-span-2">
+                  <div className="1000px:col-span-2">
                     <div >
                         <h2 className={styles.subtitle}>Our vision is to support the innovation of AI blockchain projects <span className="gradient-text">while prioritizing communities and democratizing profits</span></h2>
                         <div className="flex w-full h-full justify-end">
@@ -53,7 +53,7 @@ const Section4:FC = () => {
                         </div>
                     </div>
                   </div>
-                  <div className="content-center">
+                  <div className="">
                     {features.map((item:DropdownProps, index) => (
                       <Dropdown key={index} title={item.title} description={item.description} icon={item.icon} />
                     ))}
